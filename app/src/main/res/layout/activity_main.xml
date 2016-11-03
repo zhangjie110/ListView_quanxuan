@@ -10,6 +10,7 @@
     tools:context="test.bwei.com.listview_quanxuan.MainActivity">
 
     <ScrollView
+        android:id="@+id/scroll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <LinearLayout
@@ -43,7 +44,7 @@
 
             <ListView
                 android:layout_width="wrap_content"
-                android:layout_height="800dp"
+                android:layout_height="500dp"
                 android:id="@+id/lv"/>
         </LinearLayout>
 
